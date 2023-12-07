@@ -1,0 +1,28 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="4dp">
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:padding="16dp"> <!-- Ajuste de relleno según tus necesidades -->
+
+<TextView
+    android:id="@+id/Nombre"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Nombre"
+    android:gravity="center_vertical" /> <!-- Alineación vertical centrada -->
+
+<TextView
+    android:id="@+id/apellido"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Apellido"
+    android:gravity="center_vertical" /> <!-- Alineación vertical centrada -->
+</LinearLayout>
+
+    </androidx.cardview.widget.CardView>
