@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/img">
 
     <TextView
         android:id="@+id/textViewNombre"
@@ -12,6 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="Nombre: "
+        android:textColor="@android:color/white"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -22,6 +24,7 @@
         android:layout_below="@id/textViewNombre"
         android:layout_marginTop="8dp"
         android:text="Apellido: "
+        android:textColor="@android:color/white"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -31,10 +34,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/textViewApellido"
         android:layout_marginTop="8dp"
+        android:textColor="@android:color/white"
         android:text="Usuario: "
         android:textSize="18sp"
         android:textStyle="bold" />
-
 
     <ImageView
         android:id="@+id/imageViewFotoPerfil"

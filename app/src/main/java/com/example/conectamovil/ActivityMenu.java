@@ -23,7 +23,6 @@ public class ActivityMenu extends AppCompatActivity {
         // Obtener referencias a los botones
         Button btnIrAPerfilUsuario = findViewById(R.id.btnIrPerfilUsuario);
         Button btnIrAContactos = findViewById(R.id.btnIrContactos);
-        Button btnAgregarContactos = findViewById(R.id.btnAgregarContactos);
         Button btnIrMqttt = findViewById(R.id.btnIrMqtt);
 
         // Configurar listeners para los botones
@@ -43,12 +42,7 @@ public class ActivityMenu extends AppCompatActivity {
             }
         });
 
-        btnAgregarContactos.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                agregarContactos();
-            }
-        });
+
 
         btnIrMqttt.setOnClickListener(new View.OnClickListener() {
             @Override

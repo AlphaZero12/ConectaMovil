@@ -43,7 +43,7 @@ public class activityPrincipal extends AppCompatActivity implements SearchView.O
         txtBuscar = findViewById(R.id.txtBuscar);
         listaContactos = findViewById(R.id.listaContactos);
         fabNuevo = findViewById(R.id.favNuevo);
-        btncontactos = findViewById(R.id.btncontactos);
+
 
        
         listaContactos.setLayoutManager(new LinearLayoutManager(this));

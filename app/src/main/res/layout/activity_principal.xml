@@ -5,7 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activityPrincipal">
+    tools:context=".activityPrincipal"
+    android:background="@drawable/img">
 
     <SearchView
         android:id="@+id/txtBuscar"
@@ -17,13 +18,13 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/listaContactos"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
         app:layout_constraintTop_toBottomOf="@id/txtBuscar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/btncontactos"
-        app:layout_constraintVertical_weight="0.9"/>
+        app:layout_constraintVertical_weight="0.9"
+        android:outlineAmbientShadowColor="@color/white"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/favNuevo"
@@ -37,15 +38,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/ic_add" />
 
-    <Button
-        android:id="@+id/btncontactos"
-        android:layout_width="125dp"
-        android:layout_height="54dp"
-        android:layout_marginEnd="88dp"
-        android:layout_marginBottom="16dp"
-        android:text="Contactos"
-        app:backgroundTint="@color/design_default_color_primary"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

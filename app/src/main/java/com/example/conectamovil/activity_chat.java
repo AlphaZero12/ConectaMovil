@@ -66,16 +66,8 @@ public class activity_chat extends AppCompatActivity {
         txtContenido = findViewById(R.id.txtContenido);
         txttimestamp = findViewById(R.id.txttimestamp);
 
-        Button btnRegresarContacto = findViewById(R.id.btnRegresarContacto);
 
-        btnRegresarContacto.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // Aquí inicia la actividad de perfil
-                Intent intent = new Intent(getApplicationContext(), ActivityContacto.class);
-                startActivity(intent);
-            }
-        });
+
 
         // Obtén la referencia a la instancia de la base de datos de Firebase
         databaseReference = FirebaseDatabase.getInstance().getReference().child("Mensajeria");
